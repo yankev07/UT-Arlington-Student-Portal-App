@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:background="@color/colorPrimaryDark"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_weight="0.84">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_settings_black_24dp"
+                        android:tint="@color/colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:text="Edit Course Details"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayoutCategory">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_books"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:text="Course Name :"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:textColorHint="@color/colorAccent">
+                    <Spinner
+                        android:id="@+id/spinner_course_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayoutTiming">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/ic_access_time_black_24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:text="Timings :"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextTimings"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="42dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayoutRoom">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/ic_account_balance_black_24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:text="Classroom :"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextClassroom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"/>
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/appCompatButtonSubmit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="85dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/colorPrimaryDark"
+                android:text="Submit"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

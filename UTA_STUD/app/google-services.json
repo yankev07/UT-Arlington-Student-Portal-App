@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1046868224261",
+    "firebase_url": "https://uta-stud.firebaseio.com",
+    "project_id": "uta-stud",
+    "storage_bucket": "uta-stud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046868224261:android:f027315cd2c3fc76",
+        "android_client_info": {
+          "package_name": "com.segroup9.uta_stud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046868224261-b215vcv1ajt5un8rfpjqdtg3hbubj152.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.segroup9.uta_stud",
+            "certificate_hash": "f920cf63c3469d152e57a7d319edeea0bf047e39"
+          }
+        },
+        {
+          "client_id": "1046868224261-tfrdkre2ucbsvcanlbc52m3sf234fn1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKvPVNp3a6_dd2KDkLzDt9ihCuvagtjtY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046868224261-tfrdkre2ucbsvcanlbc52m3sf234fn1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

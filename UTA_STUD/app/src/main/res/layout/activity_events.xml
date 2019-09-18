@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nestedScrollView"
+    android:background="@color/colorPrimary"
+    android:padding="20dp" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp">
+
+            <LinearLayout
+                android:id="@+id/picture_canvas"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icon_picture"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/item_picture"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:text="Poster Image" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/picture_canvas">
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Title: "
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/editTextEventTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Date: "
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/editTextEventDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:gravity="center"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start Time: "
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/editTextStartTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:gravity="center"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="End Time:   "
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/editTextEndTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:gravity="center"
+                    android:textColor="@color/colorText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp" >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextEventDetails"
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="top|left"
+                android:padding="10dp"
+                android:hint="Event details..."
+                android:scrollbars="vertical"
+                android:textColor="@color/colorText"
+                android:background="@drawable/inputfield"/>
+        </android.support.design.widget.TextInputLayout>
+
+            <ProgressBar
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/appCompatButtonSubmit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/colorPrimaryDark"
+                android:text="Publish"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

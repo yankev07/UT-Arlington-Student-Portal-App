@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:padding="5dp"
+    android:paddingTop="@dimen/activity_margin">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_delete_forever_black_24dp"
+        android:tint="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/courseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Delete this Comment ?"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:text="Cancel"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:id="@+id/button_cancel" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:text="Yes"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:id="@+id/button_delete" />
+    </FrameLayout>
+
+</LinearLayout>

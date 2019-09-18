@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">UTA_STUD</string>
+    <string name="text_register">No account yet? Create one</string>
+
+    <string name="text_member">Already a member? Login</string>
+    <string name="text_not_member">No account yet? Create one</string>
+
+    <string name="type_a_message">Type a message...</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_studentid">Enter Student ID</string>
+    <string name="error_message_netid">NetID Required</string>
+    <string name="error_message_email">Email Required</string>
+    <string name="error_message_password">Password Required</string>
+
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="google_maps_key">AIzaSyD9W4zhDUYKkc8I27ohFQbAu8SeSlBOBG8</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="press_again_exit_app">Press again to exit</string>
+    <string name="version">Current Version : 1.0.0 - Sept 2018</string>
+
+
+
+    <array name="courses">
+        <item>-</item>
+        <item>CSE 1105 - INTRODUCTION TO COMPUTER SCIENCE AND ENGINEERING</item>
+        <item>CSE 1301 - COMPUTER LITERACY</item>
+        <item>CSE 1310 - INTRODUCTION TO COMPUTERS AND PROGRAMMING</item>
+        <item>CSE 1311 - INTRODUCTION TO PROGRAMMING FOR ENGINEERS</item>
+        <item>CSE 1320 - INTERMEDIATE PROGRAMMING</item>
+        <item>CSE 1325 - OBJECT-ORIENTED PROGRAMMING</item>
+        <item>CSE 2100 - PRACTICAL COMPUTER HARDWARE/SOFTWARE SYSTEMS</item>
+        <item>CSE 2312 - COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE PROGRAMMING</item>
+        <item>CSE 2315 - DISCRETE STRUCTURES</item>
+        <item>CSE 2320 - ALGORITHMS AND DATA STRUCTURES</item>
+        <item>CSE 2440 - CIRCUITS AND SIGNALS FOR COMPUTER ENGINEERS</item>
+        <item>CSE 2441 - INTRODUCTION TO DIGITAL LOGIC</item>
+        <item>CSE 3302 - PROGRAMMING LANGUAGES</item>
+        <item>CSE 3310 - FUNDAMENTALS OF SOFTWARE ENGINEERING</item>
+        <item>CSE 3311 - OBJECT-ORIENTED SOFTWARE ENGINEERING</item>
+        <item>CSE 3313 - INTRODUCTION TO SIGNAL PROCESSING</item>
+        <item>CSE 3315 - THEORETICAL CONCEPTS IN COMPUTER SCIENCE AND ENGINEERING</item>
+        <item>CSE 3320 - OPERATING SYSTEMS</item>
+        <item>CSE 3323 - ELECTRONICS FOR COMPUTER ENGINEERING</item>
+        <item>CSE 3330 - DATABASE SYSTEMS AND FILE STRUCTURES</item>
+        <item>CSE 3380 - LINEAR ALGEBRA FOR CSE</item>
+        <item>CSE 3442 - EMBEDDED SYSTEMS I</item>
+        <item>CSE 4303 - COMPUTER GRAPHICS</item>
+        <item>CSE 4305 - COMPILERS FOR ALGORITHMIC LANGUAGES</item>
+        <item>CSE 4308 - ARTIFICIAL INTELLIGENCE I</item>
+        <item>CSE 4309 - ARTIFICIAL INTELLIGENCE II</item>
+        <item>CSE 4314 - PROFESSIONAL PRACTICES</item>
+        <item>CSE 4316 - COMPUTER SYSTEM DESIGN PROJECT I</item>
+        <item>CSE 4317 - COMPUTER SYSTEM DESIGN PROJECT II</item>
+        <item>CSE 4321 - SOFTWARE TESTING AND MAINTENANCE</item>
+        <item>CSE 4322 - SOFTWARE PROJECT MANAGEMENT</item>
+        <item>CSE 4323 - QUANTITATIVE COMPUTER ARCHITECTURE</item>
+        <item>CSE 4331 - DATABASE IMPLEMENTATION AND THEORY</item>
+        <item>CSE 4334 - DATA MINING</item>
+        <item>CSE 4342 - EMBEDDED SYSTEMS II</item>
+        <item>CSE 4344 - COMPUTER NETWORK ORGANIZATION</item>
+        <item>CSE 4360 - AUTONOMOUS ROBOT DESIGN AND PROGRAMMING</item>
+        <item>CSE 4361 - SOFTWARE DESIGN PATTERNS</item>
+        <item>CSE 4378 - INTRODUCTION TO UNMANNED VEHICLE SYSTEMS</item>
+        <item>CSE 4379 - UNMANNED VEHICLE SYSTEM DEVELOPMENT</item>
+        <item>CSE 4380 - INFORMATION SECURITY</item>
+        <item>CSE 4392 - SPECIAL TOPICS</item>
+        <item>CSE 5301 - DATA ANALYSIS AND MODELING TECHNIQUES</item>
+        <item>CSE 5306 - DISTRIBUTED SYSTEMS</item>
+        <item>CSE 5311 - DESIGN AND ANALYSIS OF ALGORITHMS</item>
+        <item>CSE 5317 - DESIGN AND CONSTRUCTION OF COMPILERS</item>
+        <item>CSE 5320 - SPECIAL TOPICS IN SOFTWARE ENGINEERING</item>
+        <item>CSE 5321 - SOFTWARE TESTING</item>
+        <item>CSE 5324 - SOFTWARE ENGINEERING: ANALYSIS, DESIGN, AND TESTING</item>
+        <item>CSE 5325 - SOFTWARE ENGINEERING: MANAGEMENT, MAINTENANCE, AND QUALITY ASSURANCE</item>
+        <item>CSE 5328 - SOFTWARE ENGINEERING TEAM PROJECT I</item>
+        <item>CSE 5330 - DATABASE SYSTEMS</item>
+        <item>CSE 5331 - DBMS MODELS AND IMPLEMENTATION TECHNIQUES</item>
+        <item>CSE 5334 - DATA MINING</item>
+        <item>CSE 5335 - WEB DATA MANAGEMENT</item>
+        <item>CSE 5344 - COMPUTER NETWORKS</item>
+        <item>CSE 5345 - FUNDAMENTALS OF WIRELESS NETWORKS</item>
+        <item>CSE 5350 - COMPUTER ARCHITECTURE II</item>
+        <item>CSE 5351 - PARALLEL PROCESSING</item>
+        <item>CSE 5364 - ROBOTICS</item>
+        <item>CSE 5365 - COMPUTER GRAPHICS</item>
+        <item>CSE 5368 - NEURAL NETWORKS</item>
+        <item>CSE 5369 - SPECIAL TOPICS IN INTELLIGENT SYSTEMS</item>
+        <item>CSE 5380 - INFORMATION SECURITY 1</item>
+        <item>CSE 5381 - INFORMATION SECURITY 2</item>
+        <item>CSE 5382 - SECURE PROGRAMMING</item>
+        <item>CSE 5383 - INTRODUCTION TO UNMANNED VEHICLE SYSTEMS</item>
+        <item>CSE 5384 - UNMANNED VEHICLE SYSTEM DEVELOPMENT</item>
+        <item>CSE 6311 - ADVANCED COMPUTATIONAL MODELS AND ALGORITHMS</item>
+        <item>CSE 6324 - ADVANCED TOPICS IN SOFTWARE ENGINEERING</item>
+        <item>CSE 6329 - SPECIAL TOPICS IN ADVANCED SOFTWARE ENGINEERING</item>
+        <item>CSE 6331 - ADVANCED TOPICS IN DATABASE SYSTEMS</item>
+        <item>CSE 6349 - SPECIAL TOPICS IN ADVANCED NETWORKING</item>
+        <item>CSE 6363 - MACHINE LEARNING</item>
+        <item>CSE 6367 - COMPUTER VISION</item>
+        <item>CSE 6369 - SPECIAL TOPICS ADVANCED INTELLIGENT SYSTEMS</item>
+        <item>CSE 6389 - SPECIAL TOPICS IN ADVANCED MULTIMEDIA, GRAPHICS, AND IMAGE PROCESSING</item>
+        <item>CSE 6392 - SPECIAL TOPICS IN ADVANCED COMPUTER SCIENCE</item>
+        <item>CSE 5360 - ARTIFICIAL INTELLIGENCE I</item>
+    </array>
+
+
+    <array name="professors">
+        <item>-</item>
+        <item>Ishfaq Ahmad</item>
+        <item>Vassilis Athitsos</item>
+        <item>William Beksi</item>
+        <item>Bill Carroll</item>
+        <item>Sharma Chakravarthy</item>
+        <item>Hao Che</item>
+        <item>Christoph Csallner</item>
+        <item>Gautam Das</item>
+        <item>Chris Ding</item>
+        <item>Ramez Elmasri</item>
+        <item>Leonidas Fegaras</item>
+        <item>Jean Gao</item>
+        <item>Junzhou Huang</item>
+        <item>Manfred Huber</item>
+        <item>Hong Jiang</item>
+        <item>Song  Jiang</item>
+        <item>Farhad Kamangar</item>
+        <item>Won Hwa Kim</item>
+        <item>David Kung</item>
+        <item>Jeff (Yu) Lei</item>
+        <item>Chengkai Li</item>
+        <item>Ming Li</item>
+        <item>Yonghe Liu</item>
+        <item>Fillia Makedon</item>
+        <item>Jiang Ming</item>
+        <item>Shirin Nilizadeh</item>
+        <item>Deokgun Park</item>
+        <item>Lynn Peterson</item>
+        <item>Jia Rao</item>
+        <item>Bob Weems</item>
+        <item>Dajiang Zhu</item>
+        <item>Linda Barasch</item>
+        <item>Darin Brezeale</item>
+        <item>Christopher Conly</item>
+        <item>Ronald E. Cross</item>
+        <item>Sajib Datta</item>
+        <item>Elizabeth Diaz</item>
+        <item>Chance Eary</item>
+        <item>Shawn Gieser</item>
+        <item>Vamsikrishna Gopikrishna</item>
+        <item>Bahram Khalili</item>
+        <item>David Levine</item>
+        <item>Chris McMurrough</item>
+        <item>John Robb</item>
+        <item>Alexandra Stefan</item>
+        <item>Carter Tiernan</item>
+        <item>Trevor Bakker</item>
+        <item>Brian Dalio</item>
+        <item>Ranjan Dash</item>
+        <item>Jimmie Davis</item>
+        <item>Dennis Frailey</item>
+        <item>Donna French</item>
+        <item>Kelly French</item>
+        <item>Giacomo Ghidini</item>
+        <item>Taylor Johnson</item>
+        <item>Trey Jones</item>
+        <item>Fred Kashefi</item>
+        <item>Nomaan Mufti</item>
+        <item>Kyungseo Park</item>
+        <item>Eknauth Persaud</item>
+        <item>George Rice</item>
+        <item>Anam Sahoo</item>
+        <item>Medhat Saleh</item>
+        <item>Ali Sharifara</item>
+        <item>Laleh Shikh</item>
+        <item>Mike  Siok</item>
+        <item>Nicholas Burns</item>
+        <item>John Podolanko</item>
+        <item>Fadiah Qudah</item>
+        <item>Jesus Gonzalez</item>
+    </array>
+
+    <array name="yesNo">
+        <item>Yes</item>
+        <item>No</item>
+    </array>
+
+</resources>
+
+
+
