@@ -8,9 +8,11 @@ Mobile App which allows students to view/manage their classes, locate their buil
 ![App UI Element](/Screenshots/Screenshot_enrolled_courses.png)
 ![App UI Element](/Screenshots/Screenshot_course_details.png)
 ![App UI Element](/Screenshots/Screenshot_course_feedback.png)
-![App UI Element](/Screenshots/Screenshot_course_details.png)
+![App UI Element](/Screenshots/Screenshot_events.png)
 ![App UI Element](/Screenshots/Screenshot_instructors_list.png)
-![App UI Element](/Screenshots/Screenshot_instructor_location.png)
+![App UI Element](/Screenshots/Screenshot_contacts.png)
+![App UI Element](/Screenshots/Screenshot_discussion.png)
+
 
 
 
